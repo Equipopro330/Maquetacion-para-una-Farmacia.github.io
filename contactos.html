@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Maquetación para una Farmacia</title>
+	<link rel="stylesheet" type="text/css" href="maquetación web.css">
+</head>
+<body background="patron-medicina.jpg">
+	<div id="Contenedor">
+		<div id="Encabezado" style="position: relative;">
+
+    <img src="Farmacia Imagenes/logo.png"
+         style="width: 155px; height: 155px; border-radius: 50%; position: absolute; left: 20px; top: 10px;">
+
+    <h1 style="text-align: center; font-size: 50px; font-style: italic; color: white;">
+        Farmacia Espíritu Santo
+    </h1>
+
+</div>
+		<nav class="Menu">
+			<ul>
+				<li><a href="maquetación web.html" style="font-size: 20px;"><b>Inicio</b></a></li>
+				<li><a href="servicios.html" style="font-size: 20px;"><b>Servicios</b></a></li>
+				<li><a href="productos.html"style="font-size: 20px;"><b>Productos</b></a></li>
+				<li><a href="acerca de.html"style="font-size: 20px;"><b>Acerca de</b></a></li>
+				<li><a href="#"style="font-size: 20px;"><b>Contacto</b></a></li>
+			</ul>
+		</nav> 
+		<div id="contenido">
+			<div style="display: flex;">
+				<div id="seccion" style="text-align:center;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+                    <img src="Farmacia imagenes/pildora1.png" alt="decoracion" style="width: 90px; height: 40px;">
+    <h2> <P style="margin-bottom: 20px; color:  #163B6B;" ><u>Contactanos</u></h2>
+ <img src="Farmacia imagenes/pildora1.png" alt="decoracion" style="width: 90px; height: 40px;">
+ </div>
+    <p style="margin-bottom: 20px;">
+        En Farmacia Espíritu Santo estamos disponibles para atender tus dudas, brindarte información sobre nuestros productos y ofrecerte una atención cercana y confiable. No dudes en comunicarte con nosotros o visitarnos para recibir el servicio que necesitas.
+    </p>
+
+    
+
+
+<form action="/enviar-datos" method="POST">
+
+    <h2>!Envia tu información!</h2>
+    <p>
+        ¡Contáctanos para obtener descuentos especiales 
+        en productos y servicios médicos!
+    </p>
+
+    
+    <div class="form-group">
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo"
+        placeholder="Ej. correo@gmail.com" required>
+    </div>
+
+    
+    <div class="form-group">
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono"
+        placeholder="Ej. 5551234567">
+    </div>
+
+    <!-- texto largo -->
+    <div class="form-group">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"
+        rows="4" cols="40"
+        placeholder="Escribe aquí tus dudas o comentarios"></textarea>
+    </div>
+
+    <!-- Lista desplegable -->
+    <div class="form-group">
+        <label for="servicio">¿Qué servicio te interesa?</label>
+
+        <select id="servicio" name="servicio">
+            <option value="medicamentos">Medicamentos</option>
+            <option value="vitaminas">Vitaminas</option>
+            <option value="consulta">Consulta médica</option>
+            <option value="higiene">Productos de higiene</option>
+            <option value="equipo">Equipo médico</option>
+        </select>
+    </div>
+
+    <!-- Opciones de seleccion -->
+    <div class="form-group">
+        <p>¿Cómo prefieres ser contactado?</p>
+
+        <input type="radio" id="correo-op"
+        name="contacto" value="correo">
+
+        <label for="correo-op">Correo Electrónico</label>
+
+        <input type="radio" id="telefono-op"
+        name="contacto" value="telefono">
+
+        <label for="telefono-op">Llamada Telefónica</label>
+
+    </div>
+
+    <!-- Casillas -->
+    <div class="form-group">
+        <p>Servicios adicionales:</p>
+
+        <input type="checkbox" id="domicilio"
+        name="extras" value="domicilio">
+
+        <label for="domicilio">Entrega a domicilio</label>
+
+        <br>
+
+        <input type="checkbox" id="nuevos"
+        name="extras" value="nuevos">
+
+        <label for="nuevos">Información de nuevos productos</label>
+    </div>
+
+    <!-- Botón -->
+    <button type="submit">Enviar Formulario</button>
+
+</form>
+
+
+
+
+
+</div>
+				<div style="display: flex; flex-direction: column;">
+					<div id="baner1"> <img src="Farmacia imagenes/direccion.png" style="width: 333px; height: 294px;"></div>
+					<div id="baner2"> <img src="Farmacia imagenes/farmacia1.png" style="width: 333px; height: 236px;"></div>
+				</div>				
+			</div>
+		   	
+		</div>
+		<div id="footer" style="text-align: center; color: darkblue;">© 2026 Farmacia Espíritu Santo. Todos los derechos reservados.</div>
+	</div>
+</body>
+</html>

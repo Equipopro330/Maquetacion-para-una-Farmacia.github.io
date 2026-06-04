@@ -1,0 +1,112 @@
+body{
+	background-image: url("https://thumbs.dreamstime.com/b/patr%C3%B3n-de-vector-sin-fisuras-con-la-medicina-salud-y-los-iconos-s%C3%ADmbolos-farmacia-doodle-antecedentes-m%C3%A9dicos-m%C3%A9dica-181052243.jpg");
+	background-position: center;
+	background-repeat: no.repeat;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#Contenedor {
+	width: 1250px;
+	height: 1400px;
+	margin: .5em auto;
+	padding: .5em;
+}
+#Encabezado{
+	height: 3%;
+	background:#3BC3FF;
+	border-radius: 8px;
+	padding: 4em;
+	border: 2px solid darkblue;
+}
+#Navegador {
+	padding: 15px;
+	margin: 0px;
+	margin-top: 4px;
+	border: 3px solid aqua;
+	border-radius: 8px;
+	background:#70D7FF;
+}
+#contenido{
+	display: flex;
+	width: 1227px;
+	height: 550px;
+	padding: 10px;
+	margin: 0px;
+	margin-top: 4px;
+	border-radius: 8px;
+	background:#A1E6FF;
+	margin: .5em auto;
+}
+#seccion{
+	width: 820px;
+	height: 490px;
+	margin: 4px;
+	margin-top: 4px;
+	border-radius: 8px;
+	background:white;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarP7m6V0qTwvsQjm-227ca38t8XwIvrMzhGqbHgTteU-YpJxcPei3OM4A&s=10");
+	background-position: center;
+	background-repeat: no.repeat;
+	padding: 25px;
+	border: 2px solid darkblue;
+}
+#baner1{
+	width: 333px;
+	height: 294px;
+	margin: 4px;
+	margin-top: 4px;
+	border-radius: 8px;
+	background:white;
+	padding: 0px;
+	border: 2px solid darkblue;
+}
+#baner2{
+	width: 333px;
+	height: 236px;
+	margin: 4px;
+	margin-top: 4px;
+	border-radius: 8px;
+	background:white;
+	padding: 0px;
+	border: 2px solid darkblue;
+}
+#footer{
+	height: 40px;
+	background:#3BC3FF;
+	border-radius: 8px;
+	text-align: center;
+	margin: 0px;
+}
+Menu{
+	margin: 0px;
+	font-family: 'Segoe UI', sans-serif;
+	background-color: #DB94CC;
+}
+.Menu{
+	background-color: #A1E6FF;
+	padding: 0px;
+	border-radius: 8px;
+}
+.Menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+}
+.Menu ul li {
+	margin: 0;
+}
+.Menu ul li a{
+	display: block;
+	padding: 15px  25px;
+	color: #f4f4f4;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+.Menu ul li a hover {
+	background-color: #f4f4f4;
+}

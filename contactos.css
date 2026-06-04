@@ -1,0 +1,225 @@
+body{
+	background-image: url("https://thumbs.dreamstime.com/b/patr%C3%B3n-de-vector-sin-fisuras-con-la-medicina-salud-y-los-iconos-s%C3%ADmbolos-farmacia-doodle-antecedentes-m%C3%A9dicos-m%C3%A9dica-181052243.jpg");
+	background-position: center;
+	background-repeat: no.repeat;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#Contenedor {
+	width: 1250px;
+	height: 1400px;
+	background-image:https://www.istockphoto.com/es/fotos/farmacia("fondo.jpg");
+	margin: .5em auto;
+	padding: .5em;
+}
+#Encabezado{
+	height: 3%;
+	background:#3BC3FF;
+	border-radius: 8px;
+	padding: 4em;
+	border: 2px solid darkblue;
+}
+#Navegador {
+	padding: 15px;
+	margin: 0px;
+	margin-top: 4px;
+	border: 3px solid aqua;
+	border-radius: 8px;
+	background:#70D7FF;
+}
+#contenido{
+	display: flex;
+	width: 1227px;
+	min-height: 550px;
+	padding: 10px;
+	margin: 0px;
+	margin-top: 4px;
+	border-radius: 8px;
+	background:#A1E6FF;
+	margin: .5em auto;
+
+}
+#seccion{
+	width: 820px;
+	min-height: 490px;
+	margin: 4px;
+	margin-top: 4px;
+	border-radius: 8px;
+	background:white;
+	background-image: url("https://e7.pngegg.com/pngimages/20/541/png-clipart-pharmacist-%E7%AE%A1%E7%90%86%E8%96%AC%E5%89%A4%E5%B8%AB-pharmacy-school-%E8%96%AC%E5%89%A4%E5%B8%AB%E8%AA%8D%E5%AE%9A%E5%88%B6%E5%BA%A6-others-child-hand-thumbnail.png");
+	background-position: center;
+	background-repeat: no.repeat;
+	padding: 25px;
+	border: 2px solid darkblue;
+}
+#baner1{
+	width: 333px;
+	height: 294px;
+	margin: 4px;
+	margin-top: 4px;
+	border-radius: 8px;
+	background:white;
+	padding: 0px;
+	border: 2px solid darkblue;
+}
+#baner2{
+	width: 333px;
+	height: 236px;
+	margin: 4px;
+	margin-top: 4px;
+	border-radius: 8px;
+	background:white;
+	padding: 0px;
+	border: 2px solid darkblue;
+}
+#footer{
+	height: 40px;
+	background:#3BC3FF;
+	border-radius: 8px;
+	text-align: center;
+	margin: 0px;
+}
+Menu{
+	margin: 0px;
+	font-family: 'Segoe UI', sans-serif;
+	background-color: #DB94CC;
+}
+.Menu{
+	background-color: #A1E6FF;
+	padding: 0px;
+	border-radius: 8px;
+}
+.Menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+}
+.Menu ul li {
+	margin: 0;
+}
+.Menu ul li a{
+	display: block;
+	padding: 15px  25px;
+	color: #f4f4f4;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+.Menu ul li a:hover{
+	background-color: #f4f4f4;
+}
+
+/* FORMULARIO */
+form{
+	width: 40%;
+
+	margin: 15px auto;
+
+	padding: 15px;
+
+	background: #f8fdff;
+
+	border: 2px solid #49b6e8;
+
+	border-radius: 10px;
+
+	font-family: Arial, sans-serif;
+}
+
+/* TITULO */
+form h2{
+	text-align: center;
+
+	color: #2b7fb0;
+
+	margin-bottom: 10px;
+
+	font-size: 22px;
+}
+
+/* PARRAFOS */
+form p{
+	margin-bottom: 8px;
+
+	color: #444;
+
+	font-size: 13px;
+}
+
+/* BLOQUES */
+.form-group{
+	margin-bottom: 12px;
+}
+
+/* LABELS */
+label{
+	display: block;
+
+	margin-bottom: 4px;
+
+	font-weight: bold;
+
+	color: #2b7fb0;
+
+	font-size: 14px;
+}
+
+/* INPUTS */
+input[type="text"],
+input[type="email"],
+textarea,
+select{
+
+	width: 100%;
+
+	padding: 8px;
+
+	border: 1px solid #b5dff0;
+
+	border-radius: 6px;
+
+	font-size: 13px;
+
+	box-sizing: border-box;
+}
+
+/* TEXTAREA */
+textarea{
+	min-height: 60px;
+
+	resize: vertical;
+}
+
+/* RADIO Y CHECKBOX */
+input[type="radio"],
+input[type="checkbox"]{
+	margin-right: 5px;
+}
+
+/* BOTON */
+button{
+	width: 100%;
+
+	padding: 10px;
+
+	background-color: #49b6e8;
+
+	color: white;
+
+	border: none;
+
+	border-radius: 8px;
+
+	font-size: 14px;
+
+	cursor: pointer;
+}
+
+/* HOVER */
+button:hover{
+	background-color: #2b7fb0;
+}
